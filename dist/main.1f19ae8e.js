@@ -126,7 +126,7 @@ function App() {
   button.addEventListener("click", function () {
     var inputValue = inputField.value.trim();
     if (inputValue == "JavaScript") {
-      window.location.href = "./javaScript.html";
+      window.location.href = "javaScript.html";
     }
     if (inputValue == "Rust") {
       console.log("Hiii");
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51415" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52294" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -10,7 +10,7 @@ function App() {
     const inputValue = inputField.value.trim();
     
     if(inputValue == "JavaScript"){
-      window.location.href = "./javaScript.html";
+      window.location.href = "javaScript.html";
     }
     if(inputValue == "Rust"){
       console.log("Hiii");
